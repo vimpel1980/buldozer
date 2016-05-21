@@ -1,0 +1,80 @@
+header {background-color: #3f4142;
+		padding: 30px}
+
+.container {width: 1000px;
+            margin: 0 auto;}
+
+.logo {width: 158px;
+       height: 33px;
+       margin: 0 215px 0 0px;}
+
+.box {box-sizing: border-box;
+      }
+
+.inline {display: inline-block;
+		vertical-align: top}
+
+.but {height: 38px;
+	  width: 250px;
+      background-image: url(../img/grad_yellow.png);
+      background-repeat: repeat-x;}
+
+.but-grey {height: 38px;
+           width: 215px;
+           background-image: url(../img/grad_grey.png);
+           background-repeat: repeat-x;}
+
+.tahoma {font-family: tahoma;}
+.times {font-family: times new roman;}
+.verdana {font-family: verdana;}
+
+.px14 {font-size: 14px;}
+.px16 {font-size: 16px;}
+.px18 {font-size: 18px;}
+.px24 {font-size: 24px;}
+.px48 {font-size: 48px;}
+.px30 {font-size: 30px;}
+
+.col-white {color: white;}
+.col-yellow {color: #987625;}
+.col-grey {color: ;}
+
+.podch {text-decoration: underline;}
+
+.fon-grey {background-color: #949ba3;}
+
+.text-centr {text-align: center;}
+
+.rel {position: relative;}
+.abs {position: absolute;}
+
+.phone {width: 167px;
+        background: url(../img/phone.png) no-repeat left center;
+        padding-left: 15px;}
+
+div.but>span {line-height: 38px;}
+
+button {margin-right: 199px;}
+
+div.phone>span:first-child {padding-left: 25px;}
+div.phone>span:last-child {padding-left: 10px;}
+
+div.fon-grey {padding: 24px 0 105px 0;}
+
+.gruz {left: 0px;
+       top: -65px;
+       box-shadow: 0 0 10px;
+       border: none;}
+
+.zayavka {width: 250px;
+	      background-color: rgba(0, 0, 0, 0.4);
+          top: -65px;
+          right: 0;
+          padding-top: 47px;}
+
+div.zayavka>p.verdana:nth-child(2) {margin: 18px 0 30px 0;
+                                   line-height: 25px;}
+
+input {width: 210px;}
+
+div.zayavka>button {margin-left: 18px;}
