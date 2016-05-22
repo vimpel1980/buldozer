@@ -1,5 +1,5 @@
 header {background-color: #3f4142;
-		padding: 30px}
+		    padding: 30px}
 
 .container {width: 1000px;
             margin: 0 auto;}
@@ -8,14 +8,13 @@ header {background-color: #3f4142;
        height: 33px;
        margin: 0 215px 0 0px;}
 
-.box {box-sizing: border-box;
-      }
+.box {box-sizing: border-box;}
 
 .inline {display: inline-block;
 		vertical-align: top}
 
 .but {height: 38px;
-	  width: 250px;
+	    width: 250px;
       background-image: url(../img/grad_yellow.png);
       background-repeat: repeat-x;}
 
@@ -29,25 +28,31 @@ header {background-color: #3f4142;
 .verdana {font-family: verdana;}
 
 .px14 {font-size: 14px;}
+.px15 {font-size: 15px;}
 .px16 {font-size: 16px;}
 .px18 {font-size: 18px;}
 .px24 {font-size: 24px;}
-.px48 {font-size: 48px;}
 .px30 {font-size: 30px;}
+.px36 {font-size: 36px;}
+.px48 {font-size: 48px;}
+
 
 .col-white {color: white;}
 .col-yellow {color: #987625;}
 .col-black {color: black;}
 .col-liteYellow {color: #f3af00}
+.col-darkGrey {color: #3b3d3e}
 
 .podch {text-decoration: underline;}
 
 .fon-grey {background-color: #949ba3;}
 .fon-litegrey {background-color: #e4e4e4;}
+.fon-darkGrey {background-color: #80807f}
 
 img {width: 100%;}
 
 .text-centr {text-align: center;}
+.text-left {text-align: left;}
 
 .rel {position: relative;}
 .abs {position: absolute;}
@@ -64,6 +69,7 @@ div.phone>span:first-child {padding-left: 25px;}
 div.phone>span:last-child {padding-left: 10px;}
 
 div.fon-grey {padding: 24px 0 105px 0;}
+div.fon-grey>span:first-child {margin-bottom: 115px;}
 
 .gruz {height: 341px;
        left: 0px;
@@ -87,6 +93,7 @@ div.zayavka input:last-child {margin-bottom: 29px;}
 div.zayavka>button {margin: 0 0 47px 3px;}
 
 input::-webkit-input-placeholder {color: black;}
+
 input {padding-left: 20px;}
 
 .action {width: 749px;
@@ -95,3 +102,87 @@ input {padding-left: 20px;}
          left: 0;
          bottom: -273px;
          padding: 7px 0 0 30px;}
+
+.countbox-num {width: 65px;
+               height: 65px;}
+.countbox-space {margin-right: 10px;}
+.countbox-num-item {width: 27px;
+                    height: 44px;
+                    border: 1px solid black;}
+
+.vibor {height: 410px;
+        background-color: #d1d1d1;}
+
+main>div.container {margin-bottom: 350px;}
+
+div.vibor>div.container, div.kontakt>div.container {padding-top: 50px;}
+
+div.vibor>div.container>div.pad {margin-bottom: 65px;}
+
+.pochemu {width: 160px;
+          margin-right: 60px;}
+
+div.vibor div.pochemu:last-child {margin-right: 0;}
+
+.icon {width: 133px;
+       height: 133px;
+       background-image: url(../img/sprite.png);
+       background-repeat: no-repeat;}
+
+.icon-oper {background-position: 0 0;}
+.icon-tovar {background-position: 0 -138px;}
+.icon-posil {background-position: 0 -275px;}
+.icon-schet {background-position: 0 -415px;}
+
+
+div.icon {margin: 0 0 20px 13px;}
+
+.kontakt {height: 240px;
+          margin-bottom: 50px;}
+
+div.kontakt>div.container>p:first-child {padding-bottom: 25px;}
+
+.otstup40 {padding-bottom: 40px;}
+.otstup64 {padding-bottom: 64px;}
+
+div.kontakt button {width: 205px;
+                    height: 35px;
+                     margin-right: 0px;}
+
+div.kontakt input {width: 205px;
+                   height: 29px;
+                   margin-right: 32px;
+                  background-color: #e4e4e4;}
+
+div.kontakt form {margin-bottom: 40px;}
+
+.otziv {width: 465px;
+        background-color: #dddddd;
+        margin-right: 45px;
+        padding: 17px 7px 20px 33px;}
+
+.photo {height: 157px;
+        width: 157px;
+        border-radius: 157px;
+        overflow: hidden;}
+
+.user {width: 224px;
+       padding-left: 40px;}
+
+div.user>p {padding-bottom: 18px;}
+
+div.user>p:nth-child(2) {line-height: 16px;}
+
+div.otziv>p {line-height: 18px;}
+
+div.container>div.otziv:last-child {margin-right: 0;}
+
+div.otziv {margin-bottom: 55px;}
+
+.karta-kont {padding: 50px 0 0 0;}
+
+div.karta-kont p {padding-bottom: 35px;}
+
+.karta {width: 510px;
+        height: 305px;
+        border: 5px solid #3b3d3e;}
