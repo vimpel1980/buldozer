@@ -37,11 +37,15 @@ header {background-color: #3f4142;
 
 .col-white {color: white;}
 .col-yellow {color: #987625;}
-.col-grey {color: ;}
+.col-black {color: black;}
+.col-liteYellow {color: #f3af00}
 
 .podch {text-decoration: underline;}
 
 .fon-grey {background-color: #949ba3;}
+.fon-litegrey {background-color: #e4e4e4;}
+
+img {width: 100%;}
 
 .text-centr {text-align: center;}
 
@@ -61,13 +65,14 @@ div.phone>span:last-child {padding-left: 10px;}
 
 div.fon-grey {padding: 24px 0 105px 0;}
 
-.gruz {left: 0px;
+.gruz {height: 341px;
+       left: 0px;
        top: -65px;
-       box-shadow: 0 0 10px;
-       border: none;}
+       /*box-shadow: 0px 0px 8px;*/
+       overflow: hidden;}
 
 .zayavka {width: 250px;
-	      background-color: rgba(0, 0, 0, 0.4);
+	        background-color: rgba(0, 0, 0, 0.5);
           top: -65px;
           right: 0;
           padding-top: 47px;}
@@ -75,6 +80,18 @@ div.fon-grey {padding: 24px 0 105px 0;}
 div.zayavka>p.verdana:nth-child(2) {margin: 18px 0 30px 0;
                                    line-height: 25px;}
 
-input {width: 210px;}
+div.zayavka input {width: 210px;
+                   margin-bottom: 16px;}
+div.zayavka input:last-child {margin-bottom: 29px;}
 
-div.zayavka>button {margin-left: 18px;}
+div.zayavka>button {margin: 0 0 47px 3px;}
+
+input::-webkit-input-placeholder {color: black;}
+input {padding-left: 20px;}
+
+.action {width: 749px;
+         height: 97px;
+         background-image: url(../img/action.png);
+         left: 0;
+         bottom: -273px;
+         padding: 7px 0 0 30px;}
