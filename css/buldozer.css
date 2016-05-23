@@ -40,8 +40,9 @@ header {background-color: #3f4142;
 .col-white {color: white;}
 .col-yellow {color: #987625;}
 .col-black {color: black;}
-.col-liteYellow {color: #f3af00}
-.col-darkGrey {color: #3b3d3e}
+.col-liteYellow {color: #f3af00;}
+.col-darkGrey {color: #3b3d3e;}
+.col-pochta {color: #e6a91c;}
 
 .podch {text-decoration: underline;}
 
@@ -185,4 +186,27 @@ div.karta-kont p {padding-bottom: 35px;}
 
 .karta {width: 510px;
         height: 305px;
-        border: 5px solid #3b3d3e;}
+        border: 5px solid #3b3d3e;
+        overflow: hidden;
+        margin-right: 50px;}
+
+div.karta-kont>div.container {padding: 0 0 50px 125px;}
+
+.cont {width: 310px;}
+
+div.cont>p {padding-bottom: 10px;}
+
+hr {height: 1px;
+    background-color: black;
+    border:none;
+    margin-bottom: 17px;}
+
+div.cont>button {width: 305px;
+                 height: 30px;}
+
+div.cont>p:nth-child(5) {padding-bottom: 0px;}
+
+footer {height: 140px;
+        background-color: #3c3c3c;}
+
+footer p {line-height: 140px;}
