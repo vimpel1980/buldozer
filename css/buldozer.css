@@ -105,11 +105,30 @@ input {padding-left: 20px;}
          padding: 7px 0 0 30px;}
 
 .countbox-num {width: 65px;
-               height: 65px;}
-.countbox-space {margin-right: 10px;}
+               height: 65px;
+               display: inline-block;
+               color: white;
+               font-family: verdana;
+               font-size: 14px;
+               text-align: center;}
+
+.countbox-space {margin-right: 10px;
+                 display: inline-block;}
+
 .countbox-num-item {width: 27px;
                     height: 44px;
-                    border: 1px solid black;}
+                    border-right: 1px solid black;
+                    display: inline-block;
+                    font-family: verdana;
+                    font-size: 30px;
+                    font-weight: 500px;
+                    color: black;
+                    line-height: 44px;
+                    margin-right: 3px;
+                    background-image: url(../img/fon.png);}
+
+.time {top: 20px;
+       left: 418px;}
 
 .vibor {height: 410px;
         background-color: #d1d1d1;}
